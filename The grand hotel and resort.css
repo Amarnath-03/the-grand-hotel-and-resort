@@ -1,0 +1,711 @@
+*{
+margin: 0;
+padding: 0;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.topbar{
+    color: antiquewhite;
+    position: absolute;
+    top: 120px;
+    left: 40px;
+    font-size: 40px;
+}
+.btn{
+    padding: 20px;
+    font-size: 20px;
+    position: absolute;
+    top: 200px;
+    border: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+}
+
+header{
+    background-image: url(./sunset-g41608ddc6_1920.jpg);
+    height: 100vh;
+    background-size:cover;
+    background-position: center;
+    }
+  
+    .searchbar{
+        width: 100%;
+        max-width: 300px;
+        background-color:rgba(255, 255, 255, 0.842);
+        display: flex;
+        align-items: center;
+        border-radius: 70px;
+        padding: 1px 3px;
+    }
+    .searchbar input{
+        background:transparent;
+        flex: 1;
+        border: 0;
+        outline: none;
+        padding: 10px 15px;
+        font-size: 20px;
+        color:black;
+    }
+    ::placeholder{
+        color:black;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .searchbar button img{
+        width: 15px;
+        
+    }
+    .searchbar button{
+        border: 0;
+        border-radius: 50%;
+        width: 60px;
+        height: 40px;
+        cursor: pointer;
+        
+    }
+    .searchbar{
+        position:absolute;
+        top: 30px;
+        left: 40px;
+    }
+  ul{ float: right;
+    list-style-type: none;
+    margin-top: 30px;
+}
+    
+
+    ul li{
+        display: inline-block;
+    }
+    ul li a{
+        text-decoration: none;
+        color: aliceblue;
+        padding: 5px 40px;
+        border: 1px solid transparent;
+        border-radius: 50px;
+        transition: 0.7s ease;
+    }
+    ul li a:hover{
+        background-color: rgba(240, 248, 255, 0.685);
+        color:black;
+
+    }
+
+    .list li{
+        display:flex;
+        color: black;
+    }
+    .list{
+        display: none;
+        position: absolute;
+        top: 25px;
+        
+        
+    }
+    .dropdown0:hover .list{
+        display: block;
+        border: 2px solid transparent;
+        background-color:rgba(240, 248, 255, 0.856);
+        border-radius: 20px;
+    }
+   .dropdown0 ul li a:hover{
+    background-color:rgba(255, 255, 0, 0.644);
+    color: black;
+   }
+   .list li a{
+    color: black;
+    border: 1px solid transparent;
+    border-radius: 20px;
+   }
+
+
+    .list1 li{
+        display:flex;
+        color: black;
+    }
+    .list1{
+        display: none;
+        position: absolute;
+        top: 25px;
+        
+        
+    }
+    .dropdown:hover .list1{
+        display: block;
+        border: 2px solid transparent;
+        background-color:rgba(240, 248, 255, 0.856);
+        border-radius: 20px;
+    }
+   .dropdown ul li a:hover{
+    background-color:rgba(255, 255, 0, 0.644);
+    color: black;
+   }
+   .list1 li a{
+    color: black;
+    border: 1px solid transparent;
+    border-radius: 20px;
+   }
+   .list2 li{
+        display:flex;
+        color: black;
+    }
+    .list2{
+        display: none;
+        position: absolute;
+        top: 25px;
+        
+        
+    }
+    .dropdown2:hover .list2{
+        display: block;
+        border: 2px solid transparent;
+        background-color:rgba(240, 248, 255, 0.856);
+        border-radius: 20px;
+    }
+   .dropdown2 ul li a:hover{
+    background-color:rgba(255, 255, 0, 0.644);
+    color: black;
+   }
+   .list2 li a{
+    color: black;
+    border: 1px solid transparent;
+    border-radius: 20px;
+   }
+ .table{
+    color: white;
+    position: absolute;
+    bottom: 70px;
+    left: 800px;
+    right: 40px;
+    padding: 20px;
+    line-height: 1.5;
+    text-align: justify;
+    border: 2px outset white;
+    } 
+    .img1{
+        width: 550px;
+        height: 250px;
+        position: relative;
+        top: 50px;
+        left: 20px;
+        box-shadow: 5px 5px 5px 10px grey;
+
+    }
+    .para1{
+        border: 2px solid rgba(102, 94, 94, 0.603);
+        width: 15%;
+        text-align: center;
+        padding: 10px;
+        position:absolute;
+        top:665px;
+        left: 170px;
+        background-color: rgba(102, 94, 94, 0.603);
+        color: aliceblue;
+        
+
+    }
+    .para2{
+        text-align:center;
+        width: 42%;
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        position:relative;
+        bottom:180px;
+        right: 130px;
+        
+        float: right;
+    }
+    .img2{
+        height: 243px;
+        width: 550px;
+        position: relative;
+        top: 90px;
+        left: 760px;
+        box-shadow: 5px 5px 5px 10px grey;
+    }
+    .para3{
+        border: 2px solid rgba(102, 94, 94, 0.603);
+        width: 15%;
+        text-align: center;
+        padding: 10px;
+        position:relative;
+        top:90px;
+        left: 930px;
+        background-color: rgba(102, 94, 94, 0.603);
+        color: aliceblue;
+        }
+     .para4{
+        text-align: center;
+        width: 40%;
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        position:relative;
+        bottom:100px;
+        left: 70px;
+     } 
+     .box1{
+        background-color: rgba(172, 255, 47, 0.993);
+        width: 1000px;
+        height: 100px;
+        position:absolute;
+        left: 190px;
+        top: 1320px;
+     }
+
+     .box1 h1{
+        color: aliceblue;
+        font-family: 'Times New Roman', Times, serif;
+        position: relative;
+        left: 20px;
+        top: 25px;
+      }
+      .box1 input{
+        position:absolute;
+        left: 450px;
+        top: 30px;
+        height: 10px;
+        width: 300px;
+        border:1px solid transparent;
+        padding: 10px;
+
+      }
+      .box1 button{
+        position:absolute;
+        left: 800px;
+        top: 30px;
+        padding: 5px;
+        height: 32px;
+        width: 150px;
+        border: 1px solid transparent;
+        cursor: pointer;
+      }
+      .box1 button:hover{
+        background-color:rgba(255, 0, 0, 0.801);
+        transition: 0.09s ease; 
+    }
+     
+     
+
+     .box2{
+        background-color: rgba(0, 0, 0, 0.801);
+        width: 100%;
+        height: 450px;
+        color: aliceblue;
+     }
+     .box2 p{
+        text-align: justify;
+      margin: 50px;
+        position:absolute;
+       top: 1500px;
+      right: 800px;
+      color: rgba(240, 248, 255, 0.877);
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       }
+     .title1{
+        position:absolute;
+        top: 1450px;
+        left: 50px;
+     }  
+     .images{
+        position:absolute;
+        top: 1720px;
+        left: 50px;
+        cursor: pointer;
+        
+     }
+     .title2{
+        position:absolute;
+        top: 1450px;
+        left: 600px;
+        color: aliceblue;
+     }
+    
+    .box2 ul li{
+        padding: 8px;
+        display: flex;
+        position:relative;
+        right:580px;
+        top: 140px;  
+    }
+    .box2 li a:hover{
+        background-color: transparent;
+        color:red;
+        transition: 0.02s ease-in;
+    }
+    .box2 ul li a{
+        color:rgba(240, 248, 255, 0.877);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .title3{
+        position:absolute;
+        right: 40px;
+        top:1450px;
+        right:300px;
+    }
+    .mail{
+        text-decoration: none;
+        color: aliceblue;
+        position:relative;
+        left:800px;
+        top: 40px;
+        font-size: 30px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+
+    
+    .content5{
+        color: rgba(240, 248, 255, 0.877);
+        position: absolute;
+        top: 1550px;
+        left: 900px;
+        
+    }
+    .para5{
+        position: absolute;
+        left: 40px;
+        top:30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+    }
+    .para6{
+        position: absolute;
+        left: 40px;
+        top: 80px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .para7{
+        position: absolute;
+        left: 40px;
+        top:120px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .menu{
+        height: 5px;
+        width: 20px;
+        background-color:red;
+        margin-bottom: 5px;
+        padding: 2px;
+        position:relative;
+        left: 800px;
+        top: 50px;
+    }
+    .popup{
+        background-color: rgba(0,0,0,0.3);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        display:none;
+        justify-content: center;
+        align-items: center;
+    }
+    .popup_content{
+        height: 450px;
+        width: 350px;
+        background: transparent;
+        border: 2px solid rgba(255,255,255,.5);
+        border-radius: 20px;
+        backdrop-filter:blur(10px);
+        box-shadow: 0 0 30px rgba(0,0,0,.5);
+        display: flex;
+         justify-content: center;
+        text-align: center;
+        position: relative;
+    }
+    .heading h2{
+        font-size: 25px;
+        margin-top: 30px;
+        font-family:'Times New Roman', Times, serif;
+        color: #ffff;
+    }
+    .heading p{
+        margin-top:20px;
+        color: #ffff;
+    } 
+    .close{
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        right: 8px;
+        top: 5px;
+        cursor: pointer;
+    }
+    .order input{
+        width: 200px;
+        height: 10px;
+        padding: 10px;
+        margin: 16px;
+    }
+    .btn2{
+        margin-top: 20px;
+        width: 300px;
+        height: 50px;
+        font-size: 20px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: red;
+        color: #ffff;
+    }
+
+
+
+
+  
+
+ @media only screen and (max-width:640px){
+    
+    .content1{
+        padding:0;
+    }
+    .nav-links li{
+      display: flex;
+      width: 100%;
+      justify-content:center;
+      margin: 30px auto;
+      /* height: 20px; */
+    }
+    .list{
+        display: none;
+        position: absolute;
+        top: 4px;
+        right:130px;
+        }
+    .dropdown0 li a{
+        padding:10px;
+        padding-top: 2px;
+    }
+    .list1{
+        position:absolute;
+        right: 130px;
+        top: 30px;
+    }
+    
+    .dropdown li a{
+        padding: 5px;
+        padding-top: 2px;
+        margin: 1px;
+        /* margin-top:5px; */
+    }
+    .list2{
+        position: absolute;
+        right: 140px;
+    }
+    .dropdown2 li a{
+        padding: 10px;
+        padding-top: 2px;
+        margin: 1px;
+        /* margin-top:5px; */
+    }
+    .searchbar{
+        width: 200px;
+        max-width: 300px;
+        background-color:rgba(255, 255, 255, 0.842);
+        display: flex;
+        align-items: center;
+        border-radius: 30px;
+        padding: 1px 3px;
+    }
+    .searchbar input{
+        background:transparent;
+        flex: 1;
+        border: 0;
+        outline: none;
+        padding: 5px 5px;
+        font-size: 15px;
+        color:black;
+    }
+    ::placeholder{
+        color:black;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .searchbar button img{
+        width: 10px;
+        
+    }
+    .searchbar button{
+        border: 0;
+        border-radius: 50%;
+        width: 40px;
+        height: 20px;
+        cursor: pointer;
+        
+    }
+    .searchbar{
+        position:absolute;
+        top: 50px;
+        left: 40px;
+    }
+    .topbar{
+        font-size: 30px;
+    }
+    .btn{
+        padding: 15px;
+        font-size: 15px;
+        position: absolute;
+        top: 150px;
+    }
+    .table{
+        color: white;
+        position: absolute;
+        top: 350px;
+        left: 200px;
+        right: 20px;
+        padding: 20px;
+        line-height: 1.1;
+        text-align: justify;
+        border: 2px outset white;
+        }
+        .para1{
+            width: 150px;
+            position:absolute;
+            top:665px;
+            left: 230px;
+        }
+        .img1{
+            width: 500px;
+            height: 250px;
+            position: relative;
+            top: 50px;
+            left: 70px;
+            box-shadow: 3px 3px 3px 5px grey;
+    
+        }
+        .para2{
+            text-align:center;
+            width: 65%;
+            font-size: 15px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            position:relative;
+            top:90px;
+            right: 110px;
+            text-align:center;
+        }
+        .para3{
+             width: 150px;
+            position:absolute;
+            top:1180px;
+            left: 230px;
+           }
+           .img2{
+            height: 220px;
+            width: 500px;
+            position:absolute;
+            top: 1220px;
+            left:70px;
+            box-shadow: 3px 3px 3px 5px grey;
+        }
+           .para4{
+            text-align: center;
+            width: 65%;
+            font-size: 15px;
+            position:absolute;
+            top:1480px;
+            left: 120px;
+         } 
+        
+         .box1{
+            width: 500px;
+            height: 50px;
+            position:absolute;
+            left: 65px;
+            top: 1605px;
+         }
+    
+         .box1 h1{
+            color: aliceblue;
+            font-family: 'Times New Roman', Times, serif;
+            position: relative;
+            left: 20px;
+            top: 20px;
+            font-size: 15px;
+          }
+          .box1 input{
+            position:absolute;
+            left: 220px;
+            top: 15px;
+            height: 5px;
+            width: 120px;
+            padding: 10px;
+    
+          }
+          .box1 button{
+            position:absolute;
+            left: 380px;
+            top: 20px;
+            padding: 3px;
+            height: 20px;
+            width: 100px;
+          }
+           .box2{
+      margin-top: 720px;
+      height: 1050px;
+        }
+        .title1{
+            position:absolute;
+            top: 1700px;
+            left: 130px;
+         }
+         .box2 p{
+        text-align: justify;
+         margin: 3px;
+         margin-left: 150px;
+        position:absolute;
+         top: 1750px;
+        right: 150px;
+        font-size: 15px;
+         }
+         .images{
+        position:absolute;
+        top: 1920px;
+        left: 150px;
+        cursor: pointer;
+        
+     }
+     .title2{
+        position:absolute;
+        top: 2000px;
+        left: 120px;
+        margin: 20px;
+        color:whitesmoke;
+     }
+    .box2 ul li{
+        padding: 8px;
+        display: flex;
+        position:relative;
+        right:320px;
+        top: 430px;  
+    }
+     .title3{
+        position:absolute;
+        right: 40px;
+        top:2360px;
+        right:330px;
+        margin: 10px;
+       
+    }
+    .content5{
+        position: absolute;
+        top: 2450px;
+        left: 130px;
+        
+    }
+    .mail{
+        position:relative;
+        left:50px;
+        top: 720px;
+        font-size: 25px;
+        
+        
+        
+        
+    }
+
+ }
+    
+    
+    
+
+
+
+  
